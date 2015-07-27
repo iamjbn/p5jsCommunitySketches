@@ -29,6 +29,9 @@ p.draw = function() {
  // p.image(zImage,0,0);
   p.fill(38,25,50, 30);
   p.rect(0, 0, p.width, p.height);
+  p.fill(255);
+  p.textAlign(p.LEFT);
+  p.text("try pressing: left mouse, keys: 1, 2, 3, 4.",100,p.height-100);
   for (var i=0; i<sizee; i++) {/////
     vehicles[i].run(ff);/////
   }////////
