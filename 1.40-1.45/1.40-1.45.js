@@ -15,7 +15,7 @@ var zImage;
 
 p.setup = function() {
   var c = p.createCanvas(p.windowWidth,p.windowHeight);
-  c.position(0,0);
+ // c.position(0,0);
 
   zImage = p.loadImage("zz.jpg");
   ff = new FlowField();
